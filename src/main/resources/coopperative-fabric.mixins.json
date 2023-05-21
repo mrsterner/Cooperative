@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "dev.sterner.coopperative.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "BlockMixin",
+    "DispenserBlockMixin",
+    "OxidizableMixin",
+    "PistonHeadBlockMixin",
+    "PoweredRailBlockMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}

@@ -1,29 +1,29 @@
 {
 	"schemaVersion": 1,
-	"id": "cooperative-fabric",
+	"id": "coopperative-fabric",
 	"version": "${version}",
-	"name": "Cooperative-Fabric",
-	"description": "Fabric port of Cooperative",
+	"name": "Coopperative-Fabric",
+	"description": "Fabric port of Coopperative",
 	"authors": [
-		"Me!"
+		"MrSterner"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/cooperative-fabric/icon.png",
+	"icon": "assets/coopperative-fabric/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"dev.sterner.cooperative.Cooperative"
+			"dev.sterner.coopperative.Coopperative"
 		],
 		"fabric-datagen": [
-			"dev.sterner.cooperative.CooperativeDataGenerator"
+			"dev.sterner.coopperative.CoopperativeDataGenerator"
 		]
 	},
 	"mixins": [
-		"cooperative-fabric.mixins.json"
+		"coopperative-fabric.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.14.19",

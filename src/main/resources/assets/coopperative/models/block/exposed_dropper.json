@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "coopperative:block/exposed_dropper",
+    "side": "coopperative:block/exposed_dispenser_side",
+    "top": "coopperative:block/exposed_dispenser_top"
+  }
+}
